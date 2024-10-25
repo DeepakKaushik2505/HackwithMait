@@ -3,14 +3,22 @@ import electrician from '../img/electrician.png'
 import gardener from '../img/gardener.png'
 import guard from '../img/guard.png'
 import maid from '../img/maid.png'
+import plumber from '../img/plumber.png'
+import carpenter from '../img/carpenter.png'
+import cashier from '../img/cashier.png'
+import workers from '../img/workers.png'
 
 const JobCategories = () => {
   const categories = [
     { name: 'Electrician', image: electrician },
     { name: 'Gardener', image: gardener },
     { name: 'Security Guard', image: guard },
-    { name: 'Home Maid', image: maid },
-    // Add other categories
+    { name: 'Maid', image: maid },
+    { name: 'Plumber', image: plumber },
+    { name: 'Carpenter', image: carpenter },
+    { name: 'Cashier', image: cashier },
+    { name: 'Construction Workers', image: workers },
+        // Add other categories
   ];
 
   return (
